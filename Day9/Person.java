@@ -23,6 +23,8 @@ class Main {
         System.out.println("Name is : " + obj.name);
         System.out.println("Age  is : " + obj.age);
         System.out.println("StudentId is : " + obj.studentId);
+        Person obj2 = new Person();
+        System.out.println("name is " + obj2.name);
         
 
     }
