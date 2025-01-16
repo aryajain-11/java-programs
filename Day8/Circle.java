@@ -16,3 +16,5 @@ public class Circle {
     }
     
 }
+//javac -d . Circle.java
+//java Shapes.Circle 
