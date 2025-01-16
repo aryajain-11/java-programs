@@ -22,14 +22,10 @@ class Rectangle extends Shape {
 }
 class Main {
     public static void main(String[] args) {
-       // Shape obj1 = new Shape();
-       // obj1.display();
         Circle obj2 = new Circle ();
         obj2.area();
         Rectangle obj3 = new Rectangle();
         obj3.area();
-        
-
     }
 }
 // why this code give me error
