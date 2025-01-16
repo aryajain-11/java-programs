@@ -19,7 +19,7 @@ public class BookA {
     }
     
     public void applyDiscount(){
-        System.out.println("discount is applicable");
+        System.out.println("Discount is applicable");
     }
     
     public  void printDetails(){
