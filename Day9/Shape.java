@@ -28,3 +28,4 @@ class Main {
 
 // javac Shape.java
 // java main
+// static remove karte to kya hota method se
