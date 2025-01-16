@@ -1,10 +1,10 @@
 public class Calculator {
-    public static int multiply(int a, int b) { 
+    public int multiply(int a, int b) { 
         System.out.println("Product of int multiply is: " + a * b);
         return a * b;
     }
 
-    public static double multiply(double a, double b) {
+    public double multiply(double a, double b) {
         System.out.println("Product of double multiply is: " + a * b);
         return a * b;
     }
