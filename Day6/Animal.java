@@ -18,9 +18,6 @@ class Demo{
         Animal obj = new Animal("cat", "Xyz");
         System.out.println("name " + obj.name + ",species : " +obj.species);
         Dog obj2 = new Dog("Dog ", "Pug", "BullDog");
-        System.out.println("Name " + obj2.name + ", Species " + obj2.species + " ,breed " + obj2.breed);
-        
-
-        
+        System.out.println("Name " + obj2.name + ", Species " + obj2.species + " ,breed " + obj2.breed);        
     }
 }
