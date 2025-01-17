@@ -1,18 +1,18 @@
 public  abstract class Shape {
-    public static void  area(){}
+    public abstract void  area();
     public static void display(){
         System.out.println("Displaying shape details ");
     }
 }
 class Circle extends Shape {
-    public static void area (){
+    public void area (){
         int radius = 4;
         double circleArea = 3.14 * radius *radius ;
         System.out.println("area is "+ circleArea);
     }
 } 
 class Rectangle extends Shape {
-    public static void area (){
+    public void area (){
         int length = 5;
         int width = 6 ;
         int rectangleArea = length * width;
@@ -28,4 +28,3 @@ class Main {
         obj3.area();
     }
 }
-// why this code give me error
