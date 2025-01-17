@@ -1,5 +1,5 @@
 public abstract class Appliance {
-    public  void  turnOn(){}
+    public abstract void  turnOn();
     public  void showBrand() {
         System.out.println("appliance brand");
     }
