@@ -4,14 +4,16 @@ public class ExcepA {
         try{
             int result = num1/num2;
             System.out.println("result is " + result);
+            return 1;
         }
        catch(ArithmeticException e){
         System.out.println(e);
        }
         finally{
             System.out.println("Operation Completed");
+            return 1;
         }
-        return 1;
+        
     }
    
     public static void main(String[] args) {
