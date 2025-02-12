@@ -17,13 +17,18 @@ public class NumbersArraylist {
         System.out.println(numbers);
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a integer ");
+        System.out.println("Enter a num ");
         int num = sc.nextInt();
 
-        if()
-
-
-
-    }
+        for (Integer integer : numbers) {
+            int i = integer%num;
+            if(i==0){
+                System.out.println(numbers.remove(integer));
+            }
+           
+        }
+        System.out.println(numbers);
+        sc.close();
     
+}
 }
