@@ -12,7 +12,6 @@ public class ExcepB {
        sc.close();
        
     }
-
     public static void validateAge(int age) throws  IllegalArgumentException {
         
             if(age<18){

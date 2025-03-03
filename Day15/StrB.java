@@ -3,7 +3,7 @@ public class StrB {
         String s = "Arya";
         StringBuilder sb = new StringBuilder("Kinnu");
         System.out.println(sb);
-        sb.append("Jain");
+        sb.append(" Jain");
         System.out.println(sb);
 
     }

@@ -10,10 +10,6 @@ public class NumbersArraylist {
         numbers.add(30);
         numbers.add(39);
 
-        for (Integer integer : numbers) {
-            System.out.println(integer);
-        }
-
         System.out.println(numbers);
 
         Scanner sc = new Scanner(System.in);

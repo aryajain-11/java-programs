@@ -15,22 +15,16 @@ public class StringsArrayList {
         System.out.println("Enter the String ");
         String str = sc.next();
         
-        System.out.println(list.contains(str));
+       // System.out.println(list.contains(str));
 
-
-
-
-       /*  if(list.contains(str)){
+        if(list.contains(str)){
             System.out.println(str + " in the list ");
         }
         else{
             System.out.println(str+ " is not in the list");
         }
-            */
+            
         sc.close();
-
-
-       
     }
     
 }

@@ -6,7 +6,6 @@ public class Array {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
         int sum = 0;
-        //minimum value
         for (int i : integers) {
             if(i<min){
                 min = i;
@@ -22,7 +21,8 @@ public class Array {
         double average = sum/ integers.length;
         System.out.println(average);
         Arrays.sort(integers);
-        System.out.println( Arrays.sort(integers));
+        //System.out.println( Arrays.sort(integers));
+        // throws error
         //print?
     }
     

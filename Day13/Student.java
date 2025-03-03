@@ -8,7 +8,7 @@ class Demo {
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.rollno = 1;
-        s1.name = "arya";
+        s1.name = "Arya";
         s1.marks = 90;
 
         Student s2 = new Student();

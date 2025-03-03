@@ -14,8 +14,6 @@ public class LearnLinkedHashSet {
 
         elements.remove("Ram");
         System.out.println("After removing element : " + elements );
-       
-
     }
     
 }

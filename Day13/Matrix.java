@@ -8,6 +8,5 @@ public class Matrix {
     for (int[] is : arr) {
         System.out.println(arr[is]);
     }
-    
 }
 }

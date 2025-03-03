@@ -15,5 +15,4 @@ public class LearnLinkedList {
                 System.out.println(it.previous());
             }
     }
-    
 }
